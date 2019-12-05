@@ -19,4 +19,4 @@ Debajo de éste, podemos observar un horario y un iframe de la página de Facebo
 - Como cuarta y última subpágina, encontramos el **contacto**. En la página de contactos encontramos dos secciones: la primera es un formulario con el que el cliente puede ponerse en contacto con la empresa, la segunda es una columna con información sobre la empresa.<br>
 Además de las secciones, encontramos debajo un iframde que ocupará la página entera y en el que se podrá ver la localización de la empresa, con interacción en Google Maps.
 
-*Además de todas las páginas, hay que comentar unos elementos **extras** que se encargan de dar estilo a la página, como pueden ser dos elementos Javascripts con los que se añade un gif al cargar cualquier página en el navegador; y el otro proporciona un estilo a la barra de navegación al hacer scroll.
+*Además de todas las páginas, hay que comentar unos elementos **extras** que se encargan de dar estilo a la página, como pueden ser dos elementos Javascripts con los que se añade un gif al cargar cualquier página en el navegador; y el otro proporciona un estilo a la barra de navegación al hacer scroll.*
