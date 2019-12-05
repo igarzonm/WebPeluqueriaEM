@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script>
+        $(window).load(function () {
+            // Animate loader off screen
+            $(".se-pre-con").fadeOut("slow");;
+        });
+    </script>
+
+    <title>Peluquería Elisa Martín</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="../img/logo.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilo4.css">
+
+</head>
+
+<body>
+    <div class="se-pre-con"></div>
+    <nav id="nav1" class="container-fluid text-center">
+        <div class="row">
+            <div class="col-md-2 mt-auto mb-auto">
+                <span style="font-weight:900;">Llámanos: </span>955996158
+            </div>
+            <div class="col-md-8 mt-auto mb-auto">
+                <span style="font-weight:900;">Horario: </span>Martes-Viernes: 10.30-14.00 / 16.00-20.00 (Sábado:
+                10.00-14.00)
+            </div>
+            <div class="col-md-2 mt-auto mb-auto">
+                <a href="https://www.instagram.com/peluqueria_elisamartin/?hl=es"><img src="../img/insta.png" width="22"
+                        height="22"></a>
+                <a href="https://goo.gl/maps/aq38V58v9c71YTD78"><img src="../img/google.png" width="22" height="22"></a>
+                <a href="https://es-es.facebook.com/peluqueriayesteticaelisamartin"><img src="../img/facebook.png"
+                        width="22" height="22"></a>
+            </div>
+
+        </div>
+    </nav>
+
+    <nav id="nav2" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../index.html">
+            <img id="img" class="rounded-circle" src="../img/logo.jpg" width="63" height="63"
+                class="d-inline-block align-top" alt="">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <div id="titulo">Peluquería y Estética <span style="color:#30888E;">Elisa Martín</span></div>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ml-2">
+                    <a id="navbutt" class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item ml-2">
+                    <a id="navbutt" class="nav-link" href="quienessomos.html">Nosotros</a>
+                </li>
+                <li class="nav-item ml-2">
+                    <a id="navbutt" class="nav-link" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item ml-2">
+                    <a id="navbutt" class="nav-link" href="galeria.html">Galería</a>
+                </li>
+                <li class="nav-item ml-2">
+                    <a id="navbutt2" class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container-fluid mt-5">
+        <div class="row mb-5">
+            <div class="offset-1"></div>
+            <div class="col-md-7 text-left mb-4">
+                <h3 id="titulo3">Contáctanos</span></h3>
+                <hr style="width: 15%; border-width: 4px;border-color: #62A1AA; margin-right: 90%;"><br>
+                <div id="parrafo1">Si tienes cualquier duda o necesitas cualquier información, ¡no dudes en
+                    preguntarnos!</div>
+                <form>
+                    <div class="form-row mt-4">
+                        <div class="form-group col-md-6">
+                            <label for="Nombre">Nombre</label>
+                            <input type="text" class="form-control" id="Nombre" placeholder="Nombre">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="Apellidos">Apellidos</label>
+                            <input type="text" class="form-control" id="Apellidos" placeholder="Apellidos">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="Email">Email</label>
+                            <input type="text" class="form-control" id="Email" placeholder="Email">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="Teléfono">Teléfono</label>
+                            <input type="number" class="form-control" id="Teléfono" placeholder="Teléfono">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Asunto">Asunto</label>
+                        <input type="text" class="form-control" id="Asunto" placeholder="Asunto">
+                    </div>
+                    <div class="form-group">
+                        <label for="Mensaje">Escriba aquí su mensaje</label>
+                        <textarea class="form-control" id="Mensaje" rows="3" placeholder="Escriba aquí..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-info">Enviar mensaje</button>
+                </form>
+            </div>
+            <div id="parrafo2"
+                style="border-left: 1px solid  rgb(212, 212, 212) !important; margin-left: 30px; padding-left: 40px;"
+                class="col-md-3 text-left">
+                <h5 id="titulo3">Dirección</h5>
+                <div class="mb-4 mt-4">
+                    <img src="../img/ubi.png" width="5%"> Calle Alonso Cano 20, Santiponce
+                </div>
+                <hr>
+                <h5 id="titulo3">Teléfono</h5>
+                <div class="mb-4 mt-4">
+                    <img src="../img/phone.png" width="7%"> +34-955996158
+                </div>
+                <hr>
+                <h5 id="titulo3">E-mail</h5>
+                <div class="mb-4 mt-4">
+                    <img src="../img/email.png" width="8%"> anakelis@hotmail.com
+                </div>
+                <hr>
+                <h5 id="titulo3">Horarios</h5>
+                <div class="mb-4 mt-4">
+                    <img class="mb-4" src="../img/clock.png" width="7%"><br>
+                    Mar-Vi: 10.30-14.00 & 16.00-20.00 <br>
+                    Sabado: 10.00-14.00 <br>
+                    Lun-Dom: Cerrado <br>
+                </div>
+                <hr>
+
+            </div>
+            <div class="offset-1"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1883.8439687599662!2d-6.042330039528603!3d37.43154626585569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9400b7bf3f33e279!2sPeluquer%C3%ADa%20Elisa%20Mart%C3%ADn!5e0!3m2!1ses!2ses!4v1573416980240!5m2!1ses!2ses"
+                    width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer font-small mt-2" id="nav3">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div id="footer2" class="col-md-6 mt-2 text-left ">
+                    <br>
+                    <div id="footer1">Peluquería Elisa Martín
+                        <a href="https://www.instagram.com/peluqueria_elisamartin/?hl=es"><img src="../img/insta.png"
+                                width="22" height="22"></a>
+                        <a href="https://goo.gl/maps/aq38V58v9c71YTD78"><img src="../img/google.png" width="22"
+                                height="22"></a>
+                        <a href="https://es-es.facebook.com/peluqueriayesteticaelisamartin"><img
+                                src="../img/facebook.png" width="22" height="22"></a>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 mb-4 text-right" style="font-size:14px;">
+                    <div id="footer1">Contacto</div>
+                    <div>Tlf: 955996158</div>
+                    <div>E-mail: anakelis@hotmail.com</div>
+                    <div>Calle Alonso Cano 20, Santiponce, Sevilla</div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+    <script>
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                document.getElementById("nav2").style.padding = "0px 0px";
+            } else {
+                document.getElementById("nav2").style.padding = "10px 10px";
+            }
+        }
+    </script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v5.0"></script>
+
+</body>
+
+</html>
